@@ -1,0 +1,539 @@
+[
+  {
+    "op": "start",
+    "params": {
+      "init_shift": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "init_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "note": "S01 stable-orbit V3; +Z is up, engines and landing pads are below, rocket body and nose are above."
+    },
+    "result": "You have successfully added <ID 1: Starting Block>.\nExisting Blocks: 1\n(The starting block) <ID 1: Starting Block>\nPosition: [0.,0.,0.]\nAttachable Faces:\nFace label: f0, Face center: [0.5, 0. , 0. ], Facing towards <East with 0.0\u00b0 pitch>\nFace label: f1, Face center: [-0.5,  0. ,  0. ], Facing towards <West with 0.0\u00b0 pitch>\nFace label: f2, Face center: [0. , 0. , 0.5], Facing towards <straight up>\nFace label: f3, Face center: [ 0. ,  0. , -0.5], Facing towards <straight down>\nFace label: f4, Face center: [0. , 0.5, 0. ], Facing towards <North with 0.0\u00b0 pitch>\nFace label: f5, Face center: [ 0. , -0.5,  0. ], Facing towards <South with 0.0\u00b0 pitch>"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": "1",
+      "face": "f2",
+      "new_block": "Fuel Barrel Big",
+      "note": "Lower main tank; vertical +Z body."
+    },
+    "result": "You have successfully added <ID 2: Fuel Barrel Big>.\nExisting Blocks: 2\n(Lower main tank; vertical +Z body.) <ID 2: Fuel Barrel Big>\nPosition: [0.,0.,2.]\nAttachable Faces:\nFace label: f1, Face center: [ 0.5, -0.5,  0.5], Facing towards <straight down>\nFace label: f2, Face center: [-0.5, -0.5,  0.5], Facing towards <straight down>\nFace label: f3, Face center: [-0.5,  0.5,  0.5], Facing towards <straight down>\nFace label: f4, Face center: [0.5, 0.5, 0.5], Facing towards <straight down>\nFace label: f5, Face center: [1. , 0. , 0.5], Facing towards <straight down>\nFace label: f6, Face center: [-1. ,  0. ,  0.5], Facing towards <straight down>\nFace label: f7, Face center: [0. , 1. , 0.5], Facing towards <straight down>\nFace label: f8, Face center: [ 0. , -1. ,  0.5], Facing towards <straight down>\nFace label: f9, Face center: [0. , 0. , 3.5], Facing towards <straight up>\nFace label: f10, Face center: [1.5, 0. , 1. ], Facing towards <East with 0.0\u00b0 pitch>\nFace label: f11, Face center: [1.5, 0. , 2. ], Facing towards <East with 0.0\u00b0 pitch>\nFace label: f12, Face center: [1.5, 0. , 3. ], Facing towards <East with 0.0\u00b0 pitch>\nFace label: f13, Face center: [-1.5,  0. ,  1. ], Facing towards <West with 0.0\u00b0 pitch>\nFace label: f14, Face center: [-1.5,  0. ,  2. ], Facing towards <West with 0.0\u00b0 pitch>\nFace label: f15, Face center: [-1.5,  0. ,  3. ], Facing towards <West with 0.0\u00b0 pitch>\nFace label: f16, Face center: [ 0. , -1.5,  1. ], Facing towards <South with 0.0\u00b0 pitch>\nFace label: f17, Face center: [ 0. , -1.5,  2. ], Facing towards <South with 0.0\u00b0 pitch>\nFace label: f18, Face center: [ 0. , -1.5,  3. ], Facing towards <South with 0.0\u00b0 pitch>\nFace label: f19, Face center: [0. , 1.5, 1. ], Facing towards <North with 0.0\u00b0 pitch>\nFace label: f20, Face center: [0. , 1.5, 2. ], Facing towards <North with 0.0\u00b0 pitch>\nFace label: f21, Face center: [0. , 1.5, 3. ], Facing towards <North with 0.0\u00b0 pitch>\nFace label: f22, Face center: [0.5, 0.5, 3.5], Facing towards <straight up>\nFace label: f23, Face center: [-0.5,  0.5,  3.5], Facing towards <straight up>\nFace label: f24, Face center: [-0.5, -0.5,  3.5], Facing towards <straight up>\nFace label: f25, Face center: [ 0.5, -0.5,  3.5], Facing towards <straight up>\nFace label: f26, Face center: [1. , 0. , 3.5], Facing towards <straight up>\nFace label: f27, Face center: [-1. ,  0. ,  3.5], Facing towards <straight up>\nFace label: f28, Face center: [0. , 1. , 3.5], Facing towards <straight up>\nFace label: f29, Face center: [ 0. , -1. ,  3.5], Facing towards <straight up>"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": "2",
+      "face": "f9",
+      "new_block": "Fuel Barrel Big",
+      "note": "Upper main tank; vertical +Z body."
+    },
+    "result": "You have successfully added <ID 3: Fuel Barrel Big>.\nExisting Blocks: 3\n(Upper main tank; vertical +Z body.) <ID 3: Fuel Barrel Big>\nPosition: [0.,0.,5.]\nAttachable Faces:\nFace label: f1, Face center: [ 0.5, -0.5,  3.5], Facing towards <straight down>\nFace label: f2, Face center: [-0.5, -0.5,  3.5], Facing towards <straight down>\nFace label: f3, Face center: [-0.5,  0.5,  3.5], Facing towards <straight down>\nFace label: f4, Face center: [0.5, 0.5, 3.5], Facing towards <straight down>\nFace label: f5, Face center: [1. , 0. , 3.5], Facing towards <straight down>\nFace label: f6, Face center: [-1. ,  0. ,  3.5], Facing towards <straight down>\nFace label: f7, Face center: [0. , 1. , 3.5], Facing towards <straight down>\nFace label: f8, Face center: [ 0. , -1. ,  3.5], Facing towards <straight down>\nFace label: f9, Face center: [0. , 0. , 6.5], Facing towards <straight up>\nFace label: f10, Face center: [1.5, 0. , 4. ], Facing towards <East with 0.0\u00b0 pitch>\nFace label: f11, Face center: [1.5, 0. , 5. ], Facing towards <East with 0.0\u00b0 pitch>\nFace label: f12, Face center: [1.5, 0. , 6. ], Facing towards <East with 0.0\u00b0 pitch>\nFace label: f13, Face center: [-1.5,  0. ,  4. ], Facing towards <West with 0.0\u00b0 pitch>\nFace label: f14, Face center: [-1.5,  0. ,  5. ], Facing towards <West with 0.0\u00b0 pitch>\nFace label: f15, Face center: [-1.5,  0. ,  6. ], Facing towards <West with 0.0\u00b0 pitch>\nFace label: f16, Face center: [ 0. , -1.5,  4. ], Facing towards <South with 0.0\u00b0 pitch>\nFace label: f17, Face center: [ 0. , -1.5,  5. ], Facing towards <South with 0.0\u00b0 pitch>\nFace label: f18, Face center: [ 0. , -1.5,  6. ], Facing towards <South with 0.0\u00b0 pitch>\nFace label: f19, Face center: [0. , 1.5, 4. ], Facing towards <North with 0.0\u00b0 pitch>\nFace label: f20, Face center: [0. , 1.5, 5. ], Facing towards <North with 0.0\u00b0 pitch>\nFace label: f21, Face center: [0. , 1.5, 6. ], Facing towards <North with 0.0\u00b0 pitch>\nFace label: f22, Face center: [0.5, 0.5, 6.5], Facing towards <straight up>\nFace label: f23, Face center: [-0.5,  0.5,  6.5], Facing towards <straight up>\nFace label: f24, Face center: [-0.5, -0.5,  6.5], Facing towards <straight up>\nFace label: f25, Face center: [ 0.5, -0.5,  6.5], Facing towards <straight up>\nFace label: f26, Face center: [1. , 0. , 6.5], Facing towards <straight up>\nFace label: f27, Face center: [-1. ,  0. ,  6.5], Facing towards <straight up>\nFace label: f28, Face center: [0. , 1. , 6.5], Facing towards <straight up>\nFace label: f29, Face center: [ 0. , -1. ,  6.5], Facing towards <straight up>"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": "1",
+      "face": "f0",
+      "new_block": "Double Wooden Block",
+      "note": "East bottom outrigger platform."
+    },
+    "result": "You have successfully added <ID 4: Double Wooden Block>.\nExisting Blocks: 4\n(East bottom outrigger platform.) <ID 4: Double Wooden Block>\nPosition: [1.5,0. ,0. ]\nAttachable Faces:\nFace label: f0, Face center: [ 1. , -0.5,  0. ], Facing towards <South with 0.0\u00b0 pitch>\nFace label: f1, Face center: [1. , 0.5, 0. ], Facing towards <North with 0.0\u00b0 pitch>\nFace label: f2, Face center: [1. , 0. , 0.5], Facing towards <straight up>\nFace label: f3, Face center: [ 1. ,  0. , -0.5], Facing towards <straight down>\nFace label: f5, Face center: [ 2. , -0.5,  0. ], Facing towards <South with 0.0\u00b0 pitch>\nFace label: f6, Face center: [2. , 0.5, 0. ], Facing towards <North with 0.0\u00b0 pitch>\nFace label: f7, Face center: [2. , 0. , 0.5], Facing towards <straight up>\nFace label: f8, Face center: [ 2. ,  0. , -0.5], Facing towards <straight down>\nFace label: f9, Face center: [2.5, 0. , 0. ], Facing towards <East with 0.0\u00b0 pitch>"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": "1",
+      "face": "f1",
+      "new_block": "Double Wooden Block",
+      "note": "West bottom outrigger platform."
+    },
+    "result": "You have successfully added <ID 5: Double Wooden Block>.\nExisting Blocks: 5\n(West bottom outrigger platform.) <ID 5: Double Wooden Block>\nPosition: [-1.5, 0. , 0. ]\nAttachable Faces:\nFace label: f0, Face center: [-1. ,  0.5,  0. ], Facing towards <North with 0.0\u00b0 pitch>\nFace label: f1, Face center: [-1. , -0.5,  0. ], Facing towards <South with 0.0\u00b0 pitch>\nFace label: f2, Face center: [-1. ,  0. ,  0.5], Facing towards <straight up>\nFace label: f3, Face center: [-1. ,  0. , -0.5], Facing towards <straight down>\nFace label: f5, Face center: [-2. ,  0.5,  0. ], Facing towards <North with 0.0\u00b0 pitch>\nFace label: f6, Face center: [-2. , -0.5,  0. ], Facing towards <South with 0.0\u00b0 pitch>\nFace label: f7, Face center: [-2. ,  0. ,  0.5], Facing towards <straight up>\nFace label: f8, Face center: [-2. ,  0. , -0.5], Facing towards <straight down>\nFace label: f9, Face center: [-2.5,  0. ,  0. ], Facing towards <West with 0.0\u00b0 pitch>"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": "1",
+      "face": "f4",
+      "new_block": "Double Wooden Block",
+      "note": "North bottom outrigger platform."
+    },
+    "result": "You have successfully added <ID 6: Double Wooden Block>.\nExisting Blocks: 6\n(North bottom outrigger platform.) <ID 6: Double Wooden Block>\nPosition: [0. ,1.5,0. ]\nAttachable Faces:\nFace label: f0, Face center: [0.5, 1. , 0. ], Facing towards <East with 0.0\u00b0 pitch>\nFace label: f1, Face center: [-0.5,  1. ,  0. ], Facing towards <West with 0.0\u00b0 pitch>\nFace label: f2, Face center: [0. , 1. , 0.5], Facing towards <straight up>\nFace label: f3, Face center: [ 0. ,  1. , -0.5], Facing towards <straight down>\nFace label: f5, Face center: [0.5, 2. , 0. ], Facing towards <East with 0.0\u00b0 pitch>\nFace label: f6, Face center: [-0.5,  2. ,  0. ], Facing towards <West with 0.0\u00b0 pitch>\nFace label: f7, Face center: [0. , 2. , 0.5], Facing towards <straight up>\nFace label: f8, Face center: [ 0. ,  2. , -0.5], Facing towards <straight down>\nFace label: f9, Face center: [0. , 2.5, 0. ], Facing towards <North with 0.0\u00b0 pitch>"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": "1",
+      "face": "f5",
+      "new_block": "Double Wooden Block",
+      "note": "South bottom outrigger platform."
+    },
+    "result": "You have successfully added <ID 7: Double Wooden Block>.\nExisting Blocks: 7\n(South bottom outrigger platform.) <ID 7: Double Wooden Block>\nPosition: [ 0. ,-1.5, 0. ]\nAttachable Faces:\nFace label: f0, Face center: [ 0.5, -1. ,  0. ], Facing towards <East with 0.0\u00b0 pitch>\nFace label: f1, Face center: [-0.5, -1. ,  0. ], Facing towards <West with 0.0\u00b0 pitch>\nFace label: f2, Face center: [ 0. , -1. , -0.5], Facing towards <straight down>\nFace label: f3, Face center: [ 0. , -1. ,  0.5], Facing towards <straight up>\nFace label: f5, Face center: [ 0.5, -2. ,  0. ], Facing towards <East with 0.0\u00b0 pitch>\nFace label: f6, Face center: [-0.5, -2. ,  0. ], Facing towards <West with 0.0\u00b0 pitch>\nFace label: f7, Face center: [ 0. , -2. , -0.5], Facing towards <straight down>\nFace label: f8, Face center: [ 0. , -2. ,  0.5], Facing towards <straight up>\nFace label: f9, Face center: [ 0. , -2.5,  0. ], Facing towards <South with 0.0\u00b0 pitch>"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": "4",
+      "face": "f9",
+      "new_block": "Fuel Barrel",
+      "note": "East outboard feeder tank and engine pedestal."
+    },
+    "result": "You have successfully added <ID 8: Fuel Barrel>.\nExisting Blocks: 8\n(East outboard feeder tank and engine pedestal.) <ID 8: Fuel Barrel>\nPosition: [3.,0.,0.]\nAttachable Faces:\nFace label: f0, Face center: [ 3. , -0.5,  0. ], Facing towards <South with 0.0\u00b0 pitch>\nFace label: f1, Face center: [3. , 0.5, 0. ], Facing towards <North with 0.0\u00b0 pitch>\nFace label: f2, Face center: [3. , 0. , 0.5], Facing towards <straight up>\nFace label: f3, Face center: [ 3. ,  0. , -0.5], Facing towards <straight down>\nFace label: f4, Face center: [3.5, 0. , 0. ], Facing towards <East with 0.0\u00b0 pitch>"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": "5",
+      "face": "f9",
+      "new_block": "Fuel Barrel",
+      "note": "West outboard feeder tank and engine pedestal."
+    },
+    "result": "You have successfully added <ID 9: Fuel Barrel>.\nExisting Blocks: 9\n(West outboard feeder tank and engine pedestal.) <ID 9: Fuel Barrel>\nPosition: [-3., 0., 0.]\nAttachable Faces:\nFace label: f0, Face center: [-3. ,  0.5,  0. ], Facing towards <North with 0.0\u00b0 pitch>\nFace label: f1, Face center: [-3. , -0.5,  0. ], Facing towards <South with 0.0\u00b0 pitch>\nFace label: f2, Face center: [-3. ,  0. ,  0.5], Facing towards <straight up>\nFace label: f3, Face center: [-3. ,  0. , -0.5], Facing towards <straight down>\nFace label: f4, Face center: [-3.5,  0. ,  0. ], Facing towards <West with 0.0\u00b0 pitch>"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": "6",
+      "face": "f9",
+      "new_block": "Fuel Barrel",
+      "note": "North outboard feeder tank and engine pedestal."
+    },
+    "result": "You have successfully added <ID 10: Fuel Barrel>.\nExisting Blocks: 10\n(North outboard feeder tank and engine pedestal.) <ID 10: Fuel Barrel>\nPosition: [0.,3.,0.]\nAttachable Faces:\nFace label: f0, Face center: [0.5, 3. , 0. ], Facing towards <East with 0.0\u00b0 pitch>\nFace label: f1, Face center: [-0.5,  3. ,  0. ], Facing towards <West with 0.0\u00b0 pitch>\nFace label: f2, Face center: [0. , 3. , 0.5], Facing towards <straight up>\nFace label: f3, Face center: [ 0. ,  3. , -0.5], Facing towards <straight down>\nFace label: f4, Face center: [0. , 3.5, 0. ], Facing towards <North with 0.0\u00b0 pitch>"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": "7",
+      "face": "f9",
+      "new_block": "Fuel Barrel",
+      "note": "South outboard feeder tank and engine pedestal."
+    },
+    "result": "You have successfully added <ID 11: Fuel Barrel>.\nExisting Blocks: 11\n(South outboard feeder tank and engine pedestal.) <ID 11: Fuel Barrel>\nPosition: [ 0.,-3., 0.]\nAttachable Faces:\nFace label: f0, Face center: [ 0.5, -3. ,  0. ], Facing towards <East with 0.0\u00b0 pitch>\nFace label: f1, Face center: [-0.5, -3. ,  0. ], Facing towards <West with 0.0\u00b0 pitch>\nFace label: f2, Face center: [ 0. , -3. , -0.5], Facing towards <straight down>\nFace label: f3, Face center: [ 0. , -3. ,  0.5], Facing towards <straight up>\nFace label: f4, Face center: [ 0. , -3.5,  0. ], Facing towards <South with 0.0\u00b0 pitch>"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": "8",
+      "face": "f2",
+      "new_block": "Booster",
+      "note": "East main engine at rocket base; mount below body, thrust +Z."
+    },
+    "result": "You have successfully added <ID 12: Booster>.\nExisting Blocks: 12\n(East main engine at rocket base; mount below body, thrust +Z.) <ID 12: Booster>\nPosition: [3.,0.,1.]\nThrust is directed away from the mount face toward <straight up>.\nAttachable Faces:\nFace label: f0, Face center: [2.5, 0. , 1. ], Facing towards <West with 0.0\u00b0 pitch>\nFace label: f1, Face center: [3.5, 0. , 1. ], Facing towards <East with -0.0\u00b0 pitch>\nFace label: f2, Face center: [ 3. , -0.5,  1. ], Facing towards <South with -0.0\u00b0 pitch>\nFace label: f3, Face center: [3. , 0.5, 1. ], Facing towards <North with 0.0\u00b0 pitch>"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": "9",
+      "face": "f2",
+      "new_block": "Booster",
+      "note": "West main engine at rocket base; mount below body, thrust +Z."
+    },
+    "result": "You have successfully added <ID 13: Booster>.\nExisting Blocks: 13\n(West main engine at rocket base; mount below body, thrust +Z.) <ID 13: Booster>\nPosition: [-3., 0., 1.]\nThrust is directed away from the mount face toward <straight up>.\nAttachable Faces:\nFace label: f0, Face center: [-2.5,  0. ,  1. ], Facing towards <East with 0.0\u00b0 pitch>\nFace label: f1, Face center: [-3.5,  0. ,  1. ], Facing towards <West with -0.0\u00b0 pitch>\nFace label: f2, Face center: [-3. ,  0.5,  1. ], Facing towards <North with 0.0\u00b0 pitch>\nFace label: f3, Face center: [-3. , -0.5,  1. ], Facing towards <South with -0.0\u00b0 pitch>"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": "10",
+      "face": "f2",
+      "new_block": "Booster",
+      "note": "North main engine at rocket base; mount below body, thrust +Z."
+    },
+    "result": "You have successfully added <ID 14: Booster>.\nExisting Blocks: 14\n(North main engine at rocket base; mount below body, thrust +Z.) <ID 14: Booster>\nPosition: [0.,3.,1.]\nThrust is directed away from the mount face toward <straight up>.\nAttachable Faces:\nFace label: f0, Face center: [0. , 2.5, 1. ], Facing towards <South with 0.0\u00b0 pitch>\nFace label: f1, Face center: [0. , 3.5, 1. ], Facing towards <North with 0.0\u00b0 pitch>\nFace label: f2, Face center: [0.5, 3. , 1. ], Facing towards <East with 0.0\u00b0 pitch>\nFace label: f3, Face center: [-0.5,  3. ,  1. ], Facing towards <West with 0.0\u00b0 pitch>"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": "11",
+      "face": "f3",
+      "new_block": "Booster",
+      "note": "South main engine at rocket base; mount below body, thrust +Z."
+    },
+    "result": "You have successfully added <ID 15: Booster>.\nExisting Blocks: 15\n(South main engine at rocket base; mount below body, thrust +Z.) <ID 15: Booster>\nPosition: [ 0.,-3., 1.]\nThrust is directed away from the mount face toward <straight up>.\nAttachable Faces:\nFace label: f0, Face center: [ 0. , -3.5,  1. ], Facing towards <South with 0.0\u00b0 pitch>\nFace label: f1, Face center: [ 0. , -2.5,  1. ], Facing towards <North with 0.0\u00b0 pitch>\nFace label: f2, Face center: [ 0.5, -3. ,  1. ], Facing towards <East with 0.0\u00b0 pitch>\nFace label: f3, Face center: [-0.5, -3. ,  1. ], Facing towards <West with 0.0\u00b0 pitch>"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": "4",
+      "face": "f8",
+      "new_block": "Grip Pad",
+      "note": "East landing foot below bottom outrigger."
+    },
+    "result": "You have successfully added <ID 16: Grip Pad>.\nExisting Blocks: 16\n(East landing foot below bottom outrigger.) <ID 16: Grip Pad>\nPosition: [ 2.  , 0.  ,-0.75]"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": "5",
+      "face": "f8",
+      "new_block": "Grip Pad",
+      "note": "West landing foot below bottom outrigger."
+    },
+    "result": "You have successfully added <ID 17: Grip Pad>.\nExisting Blocks: 17\n(West landing foot below bottom outrigger.) <ID 17: Grip Pad>\nPosition: [-2.  , 0.  ,-0.75]"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": "6",
+      "face": "f8",
+      "new_block": "Grip Pad",
+      "note": "North landing foot below bottom outrigger."
+    },
+    "result": "You have successfully added <ID 18: Grip Pad>.\nExisting Blocks: 18\n(North landing foot below bottom outrigger.) <ID 18: Grip Pad>\nPosition: [ 0.  , 2.  ,-0.75]"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": "7",
+      "face": "f7",
+      "new_block": "Grip Pad",
+      "note": "South landing foot below bottom outrigger."
+    },
+    "result": "You have successfully added <ID 19: Grip Pad>.\nExisting Blocks: 19\n(South landing foot below bottom outrigger.) <ID 19: Grip Pad>\nPosition: [ 0.  ,-2.  ,-0.75]"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": "3",
+      "face": "f11",
+      "new_block": "Reaction Steering Block",
+      "note": "East body reaction unit for forward/back pitch pair."
+    },
+    "result": "You have successfully added <ID 20: Reaction Steering Block>.\nExisting Blocks: 20\n(East body reaction unit for forward/back pitch pair.) <ID 20: Reaction Steering Block>\nPosition: [1.75,0.  ,5.  ]\nReaction-wheel control axis aligns with <East with 0.0\u00b0 pitch>. Positive spin: Rolling towards <North with 0.0\u00b0 pitch> with -0\u00b0 camber Opposite spin: Rolling towards <South with -0.0\u00b0 pitch> with 0\u00b0 camber"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": "3",
+      "face": "f14",
+      "new_block": "Reaction Steering Block",
+      "note": "West body reaction unit for forward/back pitch pair."
+    },
+    "result": "You have successfully added <ID 21: Reaction Steering Block>.\nExisting Blocks: 21\n(West body reaction unit for forward/back pitch pair.) <ID 21: Reaction Steering Block>\nPosition: [-1.75, 0.  , 5.  ]\nReaction-wheel control axis aligns with <West with 0.0\u00b0 pitch>. Positive spin: Rolling towards <South with 0.0\u00b0 pitch> with -0\u00b0 camber Opposite spin: Rolling towards <North with 0.0\u00b0 pitch> with 0\u00b0 camber"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": "3",
+      "face": "f20",
+      "new_block": "Reaction Steering Block",
+      "note": "North body reaction unit for left/right tilt pair."
+    },
+    "result": "You have successfully added <ID 22: Reaction Steering Block>.\nExisting Blocks: 22\n(North body reaction unit for left/right tilt pair.) <ID 22: Reaction Steering Block>\nPosition: [0.  ,1.75,5.  ]\nReaction-wheel control axis aligns with <North with 0.0\u00b0 pitch>. Positive spin: Rolling towards <West with 0.0\u00b0 pitch> with 0\u00b0 camber Opposite spin: Rolling towards <East with 0.0\u00b0 pitch> with 0\u00b0 camber"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": "3",
+      "face": "f17",
+      "new_block": "Reaction Steering Block",
+      "note": "South body reaction unit for left/right tilt pair."
+    },
+    "result": "You have successfully added <ID 23: Reaction Steering Block>.\nExisting Blocks: 23\n(South body reaction unit for left/right tilt pair.) <ID 23: Reaction Steering Block>\nPosition: [ 0.  ,-1.75, 5.  ]\nReaction-wheel control axis aligns with <South with 0.0\u00b0 pitch>. Positive spin: Rolling towards <East with 0.0\u00b0 pitch> with -0\u00b0 camber Opposite spin: Rolling towards <West with -0.0\u00b0 pitch> with 0\u00b0 camber"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": "4",
+      "face": "f7",
+      "new_block": "Reaction Steering Block",
+      "note": "East base vertical-axis reaction unit for arrow-key yaw."
+    },
+    "result": "You have successfully added <ID 24: Reaction Steering Block>.\nExisting Blocks: 24\n(East base vertical-axis reaction unit for arrow-key yaw.) <ID 24: Reaction Steering Block>\nPosition: [2.  ,0.  ,0.75]\nReaction-wheel control axis aligns with <straight up>. Positive spin: Almost horizontal spinning counterclockwise around with the axis pointing at <straight up> Opposite spin: Almost horizontal spinning clockwise around with the axis pointing at <straight down>"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": "5",
+      "face": "f7",
+      "new_block": "Reaction Steering Block",
+      "note": "West base vertical-axis reaction unit for arrow-key yaw."
+    },
+    "result": "You have successfully added <ID 25: Reaction Steering Block>.\nExisting Blocks: 25\n(West base vertical-axis reaction unit for arrow-key yaw.) <ID 25: Reaction Steering Block>\nPosition: [-2.  , 0.  , 0.75]\nReaction-wheel control axis aligns with <straight up>. Positive spin: Almost horizontal spinning counterclockwise around with the axis pointing at <straight up> Opposite spin: Almost horizontal spinning clockwise around with the axis pointing at <straight down>"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": "3",
+      "face": "f12",
+      "new_block": "Steering Thruster",
+      "note": "East upper RCS; assists lateral/yaw correction."
+    },
+    "result": "You have successfully added <ID 26: Steering Thruster>.\nExisting Blocks: 26\n(East upper RCS; assists lateral/yaw correction.) <ID 26: Steering Thruster>\nPosition: [1.75,0.  ,6.  ]\nOpposed RCS nozzles thrust along <South with 0.0\u00b0 pitch> and <North with -0.0\u00b0 pitch>."
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": "3",
+      "face": "f15",
+      "new_block": "Steering Thruster",
+      "note": "West upper RCS; assists lateral/yaw correction."
+    },
+    "result": "You have successfully added <ID 27: Steering Thruster>.\nExisting Blocks: 27\n(West upper RCS; assists lateral/yaw correction.) <ID 27: Steering Thruster>\nPosition: [-1.75, 0.  , 6.  ]\nOpposed RCS nozzles thrust along <South with 0.0\u00b0 pitch> and <North with -0.0\u00b0 pitch>."
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": "3",
+      "face": "f21",
+      "new_block": "Steering Thruster",
+      "note": "North upper RCS; assists pitch correction."
+    },
+    "result": "You have successfully added <ID 28: Steering Thruster>.\nExisting Blocks: 28\n(North upper RCS; assists pitch correction.) <ID 28: Steering Thruster>\nPosition: [0.  ,1.75,6.  ]\nOpposed RCS nozzles thrust along <straight up> and <straight down>."
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": "3",
+      "face": "f18",
+      "new_block": "Steering Thruster",
+      "note": "South upper RCS; assists pitch correction."
+    },
+    "result": "You have successfully added <ID 29: Steering Thruster>.\nExisting Blocks: 29\n(South upper RCS; assists pitch correction.) <ID 29: Steering Thruster>\nPosition: [ 0.  ,-1.75, 6.  ]\nOpposed RCS nozzles thrust along <straight down> and <straight up>."
+  },
+  {
+    "op": "twist_block",
+    "params": {
+      "block_id": "28",
+      "angle": 90.0
+    },
+    "result": "The block 28 <Steering Thruster> is twisted by 90.0 degrees. \n (North upper RCS; assists pitch correction.) <ID 28: Steering Thruster>\nPosition: [0.  ,1.75,6.  ]\nOpposed RCS nozzles thrust along <West with -0.0\u00b0 pitch> and <East with 0.0\u00b0 pitch>."
+  },
+  {
+    "op": "get_block_details",
+    "params": {
+      "block_id": "28"
+    },
+    "result": "(North upper RCS; assists pitch correction.) <ID 28: Steering Thruster>\nPosition: [0.  ,1.75,6.  ]\nOpposed RCS nozzles thrust along <West with -0.0\u00b0 pitch> and <East with 0.0\u00b0 pitch>."
+  },
+  {
+    "op": "twist_block",
+    "params": {
+      "block_id": "29",
+      "angle": 90.0
+    },
+    "result": "The block 29 <Steering Thruster> is twisted by 90.0 degrees. \n (South upper RCS; assists pitch correction.) <ID 29: Steering Thruster>\nPosition: [ 0.  ,-1.75, 6.  ]\nOpposed RCS nozzles thrust along <West with 0.0\u00b0 pitch> and <East with -0.0\u00b0 pitch>."
+  },
+  {
+    "op": "connect_blocks",
+    "params": {
+      "block_a": "8",
+      "face_a": "f0",
+      "block_b": "2",
+      "face_b": "f11",
+      "connector": "Fuel Line",
+      "note": "East feeder tank to lower main tank."
+    },
+    "result": "You have successfully added <ID 30: Fuel Line>.\nExisting Blocks: 30\n(East feeder tank to lower main tank.) <ID 30: Fuel Line>\nConnecting <ID 8: Fuel Barrel> at [ 3.  -0.5  0. ] and <ID 2: Fuel Barrel Big> at [1.50000000e+00 3.33066907e-16 2.00000000e+00].\t"
+  },
+  {
+    "op": "connect_blocks",
+    "params": {
+      "block_a": "9",
+      "face_a": "f0",
+      "block_b": "2",
+      "face_b": "f14",
+      "connector": "Fuel Line",
+      "note": "West feeder tank to lower main tank."
+    },
+    "result": "You have successfully added <ID 31: Fuel Line>.\nExisting Blocks: 31\n(West feeder tank to lower main tank.) <ID 31: Fuel Line>\nConnecting <ID 9: Fuel Barrel> at [-3.   0.5  0. ] and <ID 2: Fuel Barrel Big> at [-1.50000000e+00  3.33066907e-16  2.00000000e+00].\t"
+  },
+  {
+    "op": "connect_blocks",
+    "params": {
+      "block_a": "10",
+      "face_a": "f0",
+      "block_b": "2",
+      "face_b": "f20",
+      "connector": "Fuel Line",
+      "note": "North feeder tank to lower main tank."
+    },
+    "result": "You have successfully added <ID 32: Fuel Line>.\nExisting Blocks: 32\n(North feeder tank to lower main tank.) <ID 32: Fuel Line>\nConnecting <ID 10: Fuel Barrel> at [0.5 3.  0. ] and <ID 2: Fuel Barrel Big> at [0.  1.5 2. ].\t"
+  },
+  {
+    "op": "connect_blocks",
+    "params": {
+      "block_a": "11",
+      "face_a": "f0",
+      "block_b": "2",
+      "face_b": "f17",
+      "connector": "Fuel Line",
+      "note": "South feeder tank to lower main tank."
+    },
+    "result": "You have successfully added <ID 33: Fuel Line>.\nExisting Blocks: 33\n(South feeder tank to lower main tank.) <ID 33: Fuel Line>\nConnecting <ID 11: Fuel Barrel> at [ 0.5 -3.   0. ] and <ID 2: Fuel Barrel Big> at [ 0.  -1.5  2. ].\t"
+  },
+  {
+    "op": "connect_blocks",
+    "params": {
+      "block_a": "4",
+      "face_a": "f6",
+      "block_b": "2",
+      "face_b": "f10",
+      "connector": "Brace",
+      "note": "East lower truss from outrigger to main tank."
+    },
+    "result": "You have successfully added <ID 34: Brace>.\nExisting Blocks: 34\n(East lower truss from outrigger to main tank.) <ID 34: Brace>\nConnecting <ID 4: Double Wooden Block> at [2.  0.5 0. ] and <ID 2: Fuel Barrel Big> at [1.50000000e+00 1.11022302e-16 1.00000000e+00].\t"
+  },
+  {
+    "op": "connect_blocks",
+    "params": {
+      "block_a": "5",
+      "face_a": "f5",
+      "block_b": "2",
+      "face_b": "f13",
+      "connector": "Brace",
+      "note": "West lower truss from outrigger to main tank."
+    },
+    "result": "You have successfully added <ID 35: Brace>.\nExisting Blocks: 35\n(West lower truss from outrigger to main tank.) <ID 35: Brace>\nConnecting <ID 5: Double Wooden Block> at [-2.   0.5  0. ] and <ID 2: Fuel Barrel Big> at [-1.50000000e+00  1.11022302e-16  1.00000000e+00].\t"
+  },
+  {
+    "op": "connect_blocks",
+    "params": {
+      "block_a": "6",
+      "face_a": "f5",
+      "block_b": "2",
+      "face_b": "f19",
+      "connector": "Brace",
+      "note": "North lower truss from outrigger to main tank."
+    },
+    "result": "You have successfully added <ID 36: Brace>.\nExisting Blocks: 36\n(North lower truss from outrigger to main tank.) <ID 36: Brace>\nConnecting <ID 6: Double Wooden Block> at [0.5 2.  0. ] and <ID 2: Fuel Barrel Big> at [0.  1.5 1. ].\t"
+  },
+  {
+    "op": "connect_blocks",
+    "params": {
+      "block_a": "7",
+      "face_a": "f5",
+      "block_b": "2",
+      "face_b": "f16",
+      "connector": "Brace",
+      "note": "South lower truss from outrigger to main tank."
+    },
+    "result": "You have successfully added <ID 37: Brace>.\nExisting Blocks: 37\n(South lower truss from outrigger to main tank.) <ID 37: Brace>\nConnecting <ID 7: Double Wooden Block> at [ 0.5 -2.   0. ] and <ID 2: Fuel Barrel Big> at [ 0.  -1.5  1. ].\t"
+  },
+  {
+    "op": "connect_blocks",
+    "params": {
+      "block_a": "2",
+      "face_a": "f12",
+      "block_b": "3",
+      "face_b": "f10",
+      "connector": "Brace",
+      "note": "East interstage brace."
+    },
+    "result": "You have successfully added <ID 38: Brace>.\nExisting Blocks: 38\n(East interstage brace.) <ID 38: Brace>\nConnecting <ID 2: Fuel Barrel Big> at [1.50000000e+00 5.55111512e-16 3.00000000e+00] and <ID 3: Fuel Barrel Big> at [1.50000000e+00 7.77156117e-16 4.00000000e+00].\t"
+  },
+  {
+    "op": "connect_blocks",
+    "params": {
+      "block_a": "2",
+      "face_a": "f15",
+      "block_b": "3",
+      "face_b": "f13",
+      "connector": "Brace",
+      "note": "West interstage brace."
+    },
+    "result": "You have successfully added <ID 39: Brace>.\nExisting Blocks: 39\n(West interstage brace.) <ID 39: Brace>\nConnecting <ID 2: Fuel Barrel Big> at [-1.50000000e+00  5.55111512e-16  3.00000000e+00] and <ID 3: Fuel Barrel Big> at [-1.50000000e+00  7.77156117e-16  4.00000000e+00].\t"
+  },
+  {
+    "op": "connect_blocks",
+    "params": {
+      "block_a": "2",
+      "face_a": "f21",
+      "block_b": "3",
+      "face_b": "f19",
+      "connector": "Brace",
+      "note": "North interstage brace."
+    },
+    "result": "You have successfully added <ID 40: Brace>.\nExisting Blocks: 40\n(North interstage brace.) <ID 40: Brace>\nConnecting <ID 2: Fuel Barrel Big> at [0.  1.5 3. ] and <ID 3: Fuel Barrel Big> at [0.  1.5 4. ].\t"
+  },
+  {
+    "op": "connect_blocks",
+    "params": {
+      "block_a": "2",
+      "face_a": "f18",
+      "block_b": "3",
+      "face_b": "f16",
+      "connector": "Brace",
+      "note": "South interstage brace."
+    },
+    "result": "You have successfully added <ID 41: Brace>.\nExisting Blocks: 41\n(South interstage brace.) <ID 41: Brace>\nConnecting <ID 2: Fuel Barrel Big> at [ 0.  -1.5  3. ] and <ID 3: Fuel Barrel Big> at [ 0.  -1.5  4. ].\t"
+  },
+  {
+    "op": "connect_blocks",
+    "params": {
+      "block_a": "8",
+      "face_a": "f4",
+      "block_b": "2",
+      "face_b": "f10",
+      "connector": "Brace",
+      "note": "East engine-pod diagonal brace."
+    },
+    "result": "You have successfully added <ID 42: Brace>.\nExisting Blocks: 42\n(East engine-pod diagonal brace.) <ID 42: Brace>\nConnecting <ID 8: Fuel Barrel> at [3.50000000e+00 6.66133815e-16 0.00000000e+00] and <ID 2: Fuel Barrel Big> at [1.50000000e+00 1.11022302e-16 1.00000000e+00].\t"
+  },
+  {
+    "op": "connect_blocks",
+    "params": {
+      "block_a": "9",
+      "face_a": "f4",
+      "block_b": "2",
+      "face_b": "f13",
+      "connector": "Brace",
+      "note": "West engine-pod diagonal brace."
+    },
+    "result": "You have successfully added <ID 43: Brace>.\nExisting Blocks: 43\n(West engine-pod diagonal brace.) <ID 43: Brace>\nConnecting <ID 9: Fuel Barrel> at [-3.50000000e+00  6.66133815e-16  0.00000000e+00] and <ID 2: Fuel Barrel Big> at [-1.50000000e+00  1.11022302e-16  1.00000000e+00].\t"
+  },
+  {
+    "op": "connect_blocks",
+    "params": {
+      "block_a": "10",
+      "face_a": "f4",
+      "block_b": "2",
+      "face_b": "f19",
+      "connector": "Brace",
+      "note": "North engine-pod diagonal brace."
+    },
+    "result": "You have successfully added <ID 44: Brace>.\nExisting Blocks: 44\n(North engine-pod diagonal brace.) <ID 44: Brace>\nConnecting <ID 10: Fuel Barrel> at [0.  3.5 0. ] and <ID 2: Fuel Barrel Big> at [0.  1.5 1. ].\t"
+  },
+  {
+    "op": "connect_blocks",
+    "params": {
+      "block_a": "11",
+      "face_a": "f4",
+      "block_b": "2",
+      "face_b": "f16",
+      "connector": "Brace",
+      "note": "South engine-pod diagonal brace."
+    },
+    "result": "You have successfully added <ID 45: Brace>.\nExisting Blocks: 45\n(South engine-pod diagonal brace.) <ID 45: Brace>\nConnecting <ID 11: Fuel Barrel> at [ 0.  -3.5  0. ] and <ID 2: Fuel Barrel Big> at [ 0.  -1.5  1. ].\t"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": "3",
+      "face": "f9",
+      "new_block": "Single Wooden Block",
+      "note": "Nose mast above upper tank; confirms rocket top."
+    },
+    "result": "You have successfully added <ID 46: Single Wooden Block>.\nExisting Blocks: 46\n(Nose mast above upper tank; confirms rocket top.) <ID 46: Single Wooden Block>\nPosition: [0.,0.,7.]\nAttachable Faces:\nFace label: f0, Face center: [0.5, 0. , 7. ], Facing towards <East with 0.0\u00b0 pitch>\nFace label: f1, Face center: [-0.5,  0. ,  7. ], Facing towards <West with 0.0\u00b0 pitch>\nFace label: f2, Face center: [ 0. , -0.5,  7. ], Facing towards <South with 0.0\u00b0 pitch>\nFace label: f3, Face center: [0. , 0.5, 7. ], Facing towards <North with 0.0\u00b0 pitch>\nFace label: f4, Face center: [0. , 0. , 7.5], Facing towards <straight up>"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": "46",
+      "face": "f4",
+      "new_block": "Armor Plate Round",
+      "note": "Rounded top cap/nose above the complete engine-and-tank stack."
+    },
+    "result": "You have successfully added <ID 47: Armor Plate Round>.\nExisting Blocks: 47\n(Rounded top cap/nose above the complete engine-and-tank stack.) <ID 47: Armor Plate Round>\nPosition: [0.  ,0.  ,7.88]"
+  },
+  {
+    "op": "get_machine_summary",
+    "params": {},
+    "result": "Existing Blocks: 47\n\nMachine Summary: S01 stable-orbit V3; +Z is up, engines and landing pads are below, rocket body and nose are above.\n(The starting block) <ID 1: Starting Block>\nPosition: [0.,0.,0.]\n(Lower main tank; vertical +Z body.) <ID 2: Fuel Barrel Big>\nPosition: [0.,0.,2.]\n(Upper main tank; vertical +Z body.) <ID 3: Fuel Barrel Big>\nPosition: [0.,0.,5.]\n(East bottom outrigger platform.) <ID 4: Double Wooden Block>\nPosition: [1.5,0. ,0. ]\n(West bottom outrigger platform.) <ID 5: Double Wooden Block>\nPosition: [-1.5, 0. , 0. ]\n(North bottom outrigger platform.) <ID 6: Double Wooden Block>\nPosition: [0. ,1.5,0. ]\n(South bottom outrigger platform.) <ID 7: Double Wooden Block>\nPosition: [ 0. ,-1.5, 0. ]\n(East outboard feeder tank and engine pedestal.) <ID 8: Fuel Barrel>\nPosition: [3.,0.,0.]\n(West outboard feeder tank and engine pedestal.) <ID 9: Fuel Barrel>\nPosition: [-3., 0., 0.]\n(North outboard feeder tank and engine pedestal.) <ID 10: Fuel Barrel>\nPosition: [0.,3.,0.]\n(South outboard feeder tank and engine pedestal.) <ID 11: Fuel Barrel>\nPosition: [ 0.,-3., 0.]\n(East main engine at rocket base; mount below body, thrust +Z.) <ID 12: Booster>\nPosition: [3.,0.,1.]\nThrust is directed away from the mount face toward <straight up>.\n(West main engine at rocket base; mount below body, thrust +Z.) <ID 13: Booster>\nPosition: [-3., 0., 1.]\nThrust is directed away from the mount face toward <straight up>.\n(North main engine at rocket base; mount below body, thrust +Z.) <ID 14: Booster>\nPosition: [0.,3.,1.]\nThrust is directed away from the mount face toward <straight up>.\n(South main engine at rocket base; mount below body, thrust +Z.) <ID 15: Booster>\nPosition: [ 0.,-3., 1.]\nThrust is directed away from the mount face toward <straight up>.\n(East landing foot below bottom outrigger.) <ID 16: Grip Pad>\nPosition: [ 2.  , 0.  ,-0.75]\n(West landing foot below bottom outrigger.) <ID 17: Grip Pad>\nPosition: [-2.  , 0.  ,-0.75]\n(North landing foot below bottom outrigger.) <ID 18: Grip Pad>\nPosition: [ 0.  , 2.  ,-0.75]\n(South landing foot below bottom outrigger.) <ID 19: Grip Pad>\nPosition: [ 0.  ,-2.  ,-0.75]\n(East body reaction unit for forward/back pitch pair.) <ID 20: Reaction Steering Block>\nPosition: [1.75,0.  ,5.  ]\nReaction-wheel control axis aligns with <East with 0.0\u00b0 pitch>. Positive spin: Rolling towards <North with 0.0\u00b0 pitch> with -0\u00b0 camber Opposite spin: Rolling towards <South with -0.0\u00b0 pitch> with 0\u00b0 camber\n(West body reaction unit for forward/back pitch pair.) <ID 21: Reaction Steering Block>\nPosition: [-1.75, 0.  , 5.  ]\nReaction-wheel control axis aligns with <West with 0.0\u00b0 pitch>. Positive spin: Rolling towards <South with 0.0\u00b0 pitch> with -0\u00b0 camber Opposite spin: Rolling towards <North with 0.0\u00b0 pitch> with 0\u00b0 camber\n(North body reaction unit for left/right tilt pair.) <ID 22: Reaction Steering Block>\nPosition: [0.  ,1.75,5.  ]\nReaction-wheel control axis aligns with <North with 0.0\u00b0 pitch>. Positive spin: Rolling towards <West with 0.0\u00b0 pitch> with 0\u00b0 camber Opposite spin: Rolling towards <East with 0.0\u00b0 pitch> with 0\u00b0 camber\n(South body reaction unit for left/right tilt pair.) <ID 23: Reaction Steering Block>\nPosition: [ 0.  ,-1.75, 5.  ]\nReaction-wheel control axis aligns with <South with 0.0\u00b0 pitch>. Positive spin: Rolling towards <East with 0.0\u00b0 pitch> with -0\u00b0 camber Opposite spin: Rolling towards <West with -0.0\u00b0 pitch> with 0\u00b0 camber\n(East base vertical-axis reaction unit for arrow-key yaw.) <ID 24: Reaction Steering Block>\nPosition: [2.  ,0.  ,0.75]\nReaction-wheel control axis aligns with <straight up>. Positive spin: Almost horizontal spinning counterclockwise around with the axis pointing at <straight up> Opposite spin: Almost horizontal spinning clockwise around with the axis pointing at <straight down>\n(West base vertical-axis reaction unit for arrow-key yaw.) <ID 25: Reaction Steering Block>\nPosition: [-2.  , 0.  , 0.75]\nReaction-wheel control axis aligns with <straight up>. Positive spin: Almost horizontal spinning counterclockwise around with the axis pointing at <straight up> Opposite spin: Almost horizontal spinning clockwise around with the axis pointing at <straight down>\n(East upper RCS; assists lateral/yaw correction.) <ID 26: Steering Thruster>\nPosition: [1.75,0.  ,6.  ]\nOpposed RCS nozzles thrust along <South with 0.0\u00b0 pitch> and <North with -0.0\u00b0 pitch>.\n(West upper RCS; assists lateral/yaw correction.) <ID 27: Steering Thruster>\nPosition: [-1.75, 0.  , 6.  ]\nOpposed RCS nozzles thrust along <South with 0.0\u00b0 pitch> and <North with -0.0\u00b0 pitch>.\n(North upper RCS; assists pitch correction.) <ID 28: Steering Thruster>\nPosition: [0.  ,1.75,6.  ]\nOpposed RCS nozzles thrust along <West with -0.0\u00b0 pitch> and <East with 0.0\u00b0 pitch>.\n(South upper RCS; assists pitch correction.) <ID 29: Steering Thruster>\nPosition: [ 0.  ,-1.75, 6.  ]\nOpposed RCS nozzles thrust along <West with 0.0\u00b0 pitch> and <East with -0.0\u00b0 pitch>.\n(East feeder tank to lower main tank.) <ID 30: Fuel Line>\nConnecting <ID 8: Fuel Barrel> at [ 3.  -0.5  0. ] and <ID 2: Fuel Barrel Big> at [1.50000000e+00 3.33066907e-16 2.00000000e+00].\t\n(West feeder tank to lower main tank.) <ID 31: Fuel Line>\nConnecting <ID 9: Fuel Barrel> at [-3.   0.5  0. ] and <ID 2: Fuel Barrel Big> at [-1.50000000e+00  3.33066907e-16  2.00000000e+00].\t\n(North feeder tank to lower main tank.) <ID 32: Fuel Line>\nConnecting <ID 10: Fuel Barrel> at [0.5 3.  0. ] and <ID 2: Fuel Barrel Big> at [0.  1.5 2. ].\t\n(South feeder tank to lower main tank.) <ID 33: Fuel Line>\nConnecting <ID 11: Fuel Barrel> at [ 0.5 -3.   0. ] and <ID 2: Fuel Barrel Big> at [ 0.  -1.5  2. ].\t\n(East lower truss from outrigger to main tank.) <ID 34: Brace>\nConnecting <ID 4: Double Wooden Block> at [2.  0.5 0. ] and <ID 2: Fuel Barrel Big> at [1.50000000e+00 1.11022302e-16 1.00000000e+00].\t\n(West lower truss from outrigger to main tank.) <ID 35: Brace>\nConnecting <ID 5: Double Wooden Block> at [-2.   0.5  0. ] and <ID 2: Fuel Barrel Big> at [-1.50000000e+00  1.11022302e-16  1.00000000e+00].\t\n(North lower truss from outrigger to main tank.) <ID 36: Brace>\nConnecting <ID 6: Double Wooden Block> at [0.5 2.  0. ] and <ID 2: Fuel Barrel Big> at [0.  1.5 1. ].\t\n(South lower truss from outrigger to main tank.) <ID 37: Brace>\nConnecting <ID 7: Double Wooden Block> at [ 0.5 -2.   0. ] and <ID 2: Fuel Barrel Big> at [ 0.  -1.5  1. ].\t\n(East interstage brace.) <ID 38: Brace>\nConnecting <ID 2: Fuel Barrel Big> at [1.50000000e+00 5.55111512e-16 3.00000000e+00] and <ID 3: Fuel Barrel Big> at [1.50000000e+00 7.77156117e-16 4.00000000e+00].\t\n(West interstage brace.) <ID 39: Brace>\nConnecting <ID 2: Fuel Barrel Big> at [-1.50000000e+00  5.55111512e-16  3.00000000e+00] and <ID 3: Fuel Barrel Big> at [-1.50000000e+00  7.77156117e-16  4.00000000e+00].\t\n(North interstage brace.) <ID 40: Brace>\nConnecting <ID 2: Fuel Barrel Big> at [0.  1.5 3. ] and <ID 3: Fuel Barrel Big> at [0.  1.5 4. ].\t\n(South interstage brace.) <ID 41: Brace>\nConnecting <ID 2: Fuel Barrel Big> at [ 0.  -1.5  3. ] and <ID 3: Fuel Barrel Big> at [ 0.  -1.5  4. ].\t\n(East engine-pod diagonal brace.) <ID 42: Brace>\nConnecting <ID 8: Fuel Barrel> at [3.50000000e+00 6.66133815e-16 0.00000000e+00] and <ID 2: Fuel Barrel Big> at [1.50000000e+00 1.11022302e-16 1.00000000e+00].\t\n(West engine-pod diagonal brace.) <ID 43: Brace>\nConnecting <ID 9: Fuel Barrel> at [-3.50000000e+00  6.66133815e-16  0.00000000e+00] and <ID 2: Fuel Barrel Big> at [-1.50000000e+00  1.11022302e-16  1.00000000e+00].\t\n(North engine-pod diagonal brace.) <ID 44: Brace>\nConnecting <ID 10: Fuel Barrel> at [0.  3.5 0. ] and <ID 2: Fuel Barrel Big> at [0.  1.5 1. ].\t\n(South engine-pod diagonal brace.) <ID 45: Brace>\nConnecting <ID 11: Fuel Barrel> at [ 0.  -3.5  0. ] and <ID 2: Fuel Barrel Big> at [ 0.  -1.5  1. ].\t\n(Nose mast above upper tank; confirms rocket top.) <ID 46: Single Wooden Block>\nPosition: [0.,0.,7.]\n(Rounded top cap/nose above the complete engine-and-tank stack.) <ID 47: Armor Plate Round>\nPosition: [0.  ,0.  ,7.88]"
+  }
+]

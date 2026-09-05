@@ -1,0 +1,51 @@
+# Local BuildArena dependency checkout (it is already its own Git repository)
+/BuildArena-2.0/
+
+# Agent/build scratch directories
+/.staging/
+/staging/
+/.local/
+/.agents/
+/.codex/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+
+# Editors and operating-system metadata
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs and temporary/backup files
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# Large/reproducible delivery artifacts and raw screen recordings
+*.zip
+*.7z
+*.rar
+*.mp4
+*.mov
+*.webm
+
+# Keep competition source artifacts under version control:
+# *.bsg, *.json, *.csv, *.md, and genuine model-cover images are intentional.
