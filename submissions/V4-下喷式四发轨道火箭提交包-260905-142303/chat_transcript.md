@@ -99,3 +99,9 @@ Recommended disclosure: `Build with Agent / Copilot`. The structure of every sub
 The human then asked to add the screen recording to the submission materials, publish it to the remote GitHub repository as the video URL, and prepare a writeup.
 
 The agent preserved the official six-file archive as an exact six-file package and added the recording separately as `flight_video.mp4`. The recording is 543,618,999 bytes and 8 minutes 21 seconds long. Because it exceeds GitHub's normal 100 MiB file limit, it is tracked with Git LFS. The agent also replaced the draft with a submission-ready Kaggle writeup, added the public GitHub video link, updated checksums and submission notes, and kept the learning file self-contained.
+
+## Chinese Writeup and Media Finalization
+
+The human clarified that the Kaggle writeup could be in Chinese and requested every Kaggle-facing field: Basic Details such as Title and Subtitle, a required 560 by 280 cover image, a Media Gallery using MCP screenshots or video frames, a project description, and all remaining writeup sections.
+
+The agent checked the current competition page and retained its required section structure. Because no suitable still images were already archived, the agent decoded the real 2048 by 1152 flight recording, reviewed a timestamped contact sheet, and selected frames at 00:05, 02:30, 04:00, and 05:30. The 00:05 launch frame was center-cropped and resized to exactly 560 by 280 for the cover. Four original-resolution frames were saved for the Media Gallery. No generative image modification was used. A Chinese writeup and a separate Kaggle field-by-field copy sheet were then created to match the actual V4 files, trajectory, controls, video, workflow, and validation results.
