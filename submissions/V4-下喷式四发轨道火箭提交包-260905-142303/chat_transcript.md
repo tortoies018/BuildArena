@@ -93,3 +93,9 @@ The tuned BSG retains the same 51 block GUIDs, block types, transforms, scales a
 ## Track disclosure
 
 Recommended disclosure: `Build with Agent / Copilot`. The structure of every submitted raw version was generated through BuildArena MCP and V4 itself was completed without manual geometry editing, but human screenshots and corrections were used between iterations. Copilot is the conservative classification for the complete iterative workflow.
+
+## Submission Finalization
+
+The human then asked to add the screen recording to the submission materials, publish it to the remote GitHub repository as the video URL, and prepare a writeup.
+
+The agent preserved the official six-file archive as an exact six-file package and added the recording separately as `flight_video.mp4`. The recording is 543,618,999 bytes and 8 minutes 21 seconds long. Because it exceeds GitHub's normal 100 MiB file limit, it is tracked with Git LFS. The agent also replaced the draft with a submission-ready Kaggle writeup, added the public GitHub video link, updated checksums and submission notes, and kept the learning file self-contained.
